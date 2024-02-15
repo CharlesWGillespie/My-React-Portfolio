@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 :root {
   font-family: "Montserrat";
   line-height: 1.5;
@@ -19,14 +20,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
+h1{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 li,
 a,
 button {
   font-family: "Monserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   text-decoration: none;
   color: aliceblue;
@@ -34,34 +39,57 @@ button {
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   padding: 30px 10%;
 }
 
-.nav-links{
+.nav-links {
   list-style: none;
 }
 
-.nav-links li{
-display: inline-block;
+.nav-links li {
+  display: inline-block;
+  padding: 10px;
+  align-items: center;
 }
 
-.nav-links li a{
-transition: all 0.3s ease 0s;
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
-.nav-links li a:hover{
-color: #0388f4;
+.nav-links li a:hover {
+  color: #0388f4;
 }
 
-button{
-  padding: 9px 25px;
+button {
+  margin: 10px;
+  padding: 12px;
   background-color: #0388f4;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  font-size: 18px;
 }
 
-button:hover{
-
+button:hover {
+  background-color: #066cbf;
 }
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 5px;
+}
+
+.p-tag{
+  font-size: 20px;
+}
+
