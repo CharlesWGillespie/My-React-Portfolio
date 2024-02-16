@@ -1,18 +1,16 @@
-import Header from '../src/components/Header'
-import Footer from '../src/components/Footer'
-import AboutMe from '../src/components/AboutMe'
-// import cgpLogo from './assets/'
-// import Porjects from '../src/components/Projects'
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header'; 
+import Footer from './components/Footer'; 
+import HomePage from './pages/HomePage';
+
 function App() {
-  
-  return(
-    <>
-    <Header/>
-    <AboutMe/>
-    <Footer/>
-    </>
+  return (
+    <div>
+      <HomePage /> 
+      <Outlet /> 
+      <Footer /> 
+    </div>
   );
-  
 }
 
-export default App
+export default App;
