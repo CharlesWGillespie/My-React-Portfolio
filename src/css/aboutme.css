@@ -1,3 +1,12 @@
 #about-none{
     display: none;
 }
+
+.aboutme-h1{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.p-tag{
+    font-size: 16px;
+}
