@@ -20,7 +20,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1{
+h1 {
   font-size: 35px;
   display: flex;
   justify-content: center;
@@ -28,30 +28,26 @@ h1{
   color: white;
 }
 
-
 h2,
-h3
-{
+h3 {
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
- 
 }
-h4{
+h4 {
   color: white;
 }
 
-.intro{
+.intro {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
 }
 
-.intro-container{
+.intro-container {
   padding-top: 190px;
 }
 
@@ -86,7 +82,6 @@ header {
 }
 
 .nav-links li a {
-   
   transition: all 0.3s ease 0s;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -97,8 +92,6 @@ header {
 
 .nav-links li a:hover {
   background-color: #0965b1;
-  
-
 }
 
 button {
@@ -116,7 +109,7 @@ button:hover {
   background-color: #066cbf;
 }
 
-.main{
+.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -125,20 +118,20 @@ button:hover {
   padding: 5px;
 }
 
-.p-tag{
+.p-tag {
   font-size: 20px;
 }
 
-.footer-p-tag{
+.footer-p-tag {
   padding: 5px;
   font-size: 15px;
 }
 
-.hp-p-tag{
+.hp-p-tag {
   padding: 8px;
 }
 
-.fullstack{
+.fullstack {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
@@ -147,8 +140,8 @@ button:hover {
   align-items: start;
 }
 
-#img-trial{
-  margin:0;
+#img-trial {
+  margin: 0;
   height: 300px;
   width: 100%;
   background-image: url(../public/assets/website-img.png.jpg);
