@@ -21,7 +21,7 @@
 }
 
 h1{
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,11 +32,12 @@ h1{
 h2,
 h3
 {
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+ 
 }
 h4{
   color: white;
@@ -47,15 +48,11 @@ h4{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
-.imageHP{
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-  z-index: -1;
-  position: absolute;
-  margin-bottom: 160px;
+.intro-container{
+  padding-top: 190px;
 }
 
 li,
@@ -65,35 +62,43 @@ button {
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
-  color: #0388f4;
+  color: White;
 }
 
 header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 10%;
+  justify-content: space-between;
 }
 
 .nav-links {
   list-style: none;
+  position: fixed;
+  display: flex;
+  margin-top: 20px;
 }
 
 .nav-links li {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
+  padding-left: 15px;
 }
 
 .nav-links li a {
+   
   transition: all 0.3s ease 0s;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 6px;
+  background-color: #0388f4;
+  border-radius: 50px;
 }
 
 .nav-links li a:hover {
-  color: #0388f4;
+  background-color: #0965b1;
+  
+
 }
 
 button {
@@ -130,14 +135,25 @@ button:hover {
 }
 
 .hp-p-tag{
-  padding: 20px;
+  padding: 8px;
 }
 
 .fullstack{
   display: flex;
   flex-wrap: wrap;
-  margin: 20px;
-  /* padding: 10px; */
+  margin: 10px;
+  padding: 10px;
   justify-content: flex-start;
   align-items: start;
+}
+
+#img-trial{
+  margin:0;
+  height: 300px;
+  width: 100%;
+  background-image: url(../public/assets/website-img.png.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
