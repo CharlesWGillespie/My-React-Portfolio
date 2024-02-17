@@ -25,6 +25,37 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+
+h2,
+h3
+{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+h4{
+  color: white;
+}
+
+.intro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageHP{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  z-index: -1;
+  position: absolute;
+  margin-bottom: 160px;
 }
 
 li,
@@ -34,7 +65,7 @@ button {
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
-  color: aliceblue;
+  color: #0388f4;
 }
 
 header {
@@ -96,4 +127,17 @@ button:hover {
 .footer-p-tag{
   padding: 5px;
   font-size: 15px;
+}
+
+.hp-p-tag{
+  padding: 20px;
+}
+
+.fullstack{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  /* padding: 10px; */
+  justify-content: flex-start;
+  align-items: start;
 }

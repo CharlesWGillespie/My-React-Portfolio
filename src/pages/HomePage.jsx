@@ -1,16 +1,18 @@
 
-import Header from '../components/Header'
+import Header from '../components/NavBar'
 import Footer from '../components/Footer'
-import AboutMe from '../components/AboutMe'
+import Home from '../components/Home'
+import Intro from '../components/Intro'
 
-function HomePage() {
+
+export default function HomePage() {
 
     return (
         <>
     <Header/>
-    <AboutMe/>
+    <Intro/>
+    <Home/>
     <Footer/>
     </>
     )
 }
-export default HomePage
