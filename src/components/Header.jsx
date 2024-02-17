@@ -6,7 +6,7 @@ function Header(){
         <header>
             <h1>Charles Gillespie's Portfolio</h1>
             <nav>
-                <ul class="nav-links">
+                <ul className="nav-links">
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                 </ul>

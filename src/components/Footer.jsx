@@ -3,8 +3,8 @@ function Footer(){
 
     return(
         <footer>
-            <p>&copy;Charlesgillespie.web</p>
-            <p>Email: Charlesgillespiew@gmail.com</p>
+            <p className="footer-p-tag">&copy;Charlesgillespie.web</p>
+            <p className="footer-p-tag">Email: Charlesgillespiew@gmail.com</p>
         </footer>
     );
 }
