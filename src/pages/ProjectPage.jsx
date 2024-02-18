@@ -44,8 +44,6 @@ export default function ProjectPage() {
                 <p className='app-description'>Introducing Weather Viewer, your go-to app for quick and accurate weather updates. With Weather Viewer, you can easily search for any city and instantly access the latest weather forecast for the day. </p>
             </div>
             <h2 className='project-title'>More Coming Soon!</h2>
-
-
         </div>
         </>
     );
