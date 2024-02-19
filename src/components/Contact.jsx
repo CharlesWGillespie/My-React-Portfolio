@@ -19,11 +19,7 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-   
-    // Here you can implement the logic to send the form data to your email
-    // You can use APIs like nodemailer or others for this purpose
-
-    // Reset form fields after submission
+  
     setFormData({
       firstname: '',
       lastname: '',
