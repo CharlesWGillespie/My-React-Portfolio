@@ -90,7 +90,7 @@ button {
 }
 
 .nav-links li a:hover {
-  background-color: #ff27c9;
+  background-color: #d66bbb;
 }
 
 button {
@@ -282,4 +282,9 @@ button:hover {
   .intro-container {
     padding-top: 400px;
   }
+}
+
+.active {
+  color: pink; 
+ 
 }
