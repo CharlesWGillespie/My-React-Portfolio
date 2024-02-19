@@ -1,4 +1,6 @@
 import Navbar from '../components/NavBar'
+import Footer from '../components/Footer'
+
 import '../css/projects.css'
 
 export default function ProjectPage() {
@@ -45,6 +47,7 @@ export default function ProjectPage() {
             </div>
             <h2 className='project-title'>More Coming Soon!</h2>
         </div>
+        <Footer/>
         </>
     );
 }
