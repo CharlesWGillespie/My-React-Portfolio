@@ -18,6 +18,9 @@ The **Contact Me** page features a form that allows you to reach out to me direc
 
 The **Projects** page showcases some of the notable projects I've worked on. Each project includes a brief description, live demo link, and GitHub repository link for further exploration. Check out my projects to see examples of my work and the technologies I've used.
 
+##[Live Website](https://main--amazing-queijadas-87507a.netlify.app/)
+
+
 ## Technologies Used
 
 - React: This portfolio is built using React, a JavaScript library for building user interfaces.
