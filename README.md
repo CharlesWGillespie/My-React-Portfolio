@@ -1,42 +1,36 @@
-# React + Vite
+# My REACT Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This project showcases my skills, experiences, and projects as a developer. Below, you'll find a brief overview of the pages included in this portfolio:
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The **About Me** page provides insights into my background, journey into the world of programming, interests, and goals. Here, you'll get to know me better as both a developer and an individual.
 
+## Resume
 
-## User Story
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
+The **Resume** page presents my professional experience, skills, education, and achievements. You can view and download my resume to learn more about my qualifications and expertise.
 
+## Contact Me
 
-## Acceptance Criteria 
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+The **Contact Me** page features a form that allows you to reach out to me directly. Feel free to send me a message or inquire about collaboration opportunities. I'll get back to you as soon as possible!
+
+## Projects
+
+The **Projects** page showcases some of the notable projects I've worked on. Each project includes a brief description, live demo link, and GitHub repository link for further exploration. Check out my projects to see examples of my work and the technologies I've used.
+
+## Technologies Used
+
+- React: This portfolio is built using React, a JavaScript library for building user interfaces.
+- HTML/CSS: HTML and CSS are used for structuring and styling the portfolio's components and pages.
+- JavaScript: JavaScript is used for interactivity and functionality within the portfolio.
+
+## How to Run the Project Locally
+
+To run this project locally on your machine, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the necessary dependencies.
+4. Start the development server.
+
+Thank you for visiting my portfolio! I hope you enjoy exploring my work and learning more about me as a developer.
