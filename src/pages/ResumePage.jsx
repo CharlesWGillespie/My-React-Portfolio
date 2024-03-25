@@ -11,7 +11,7 @@ export default function ResumePage() {
             <div className='resume-container'>
                 <div className='resume-header'>
                     <h1>Charles (Will) Gillespie</h1>
-                    <p>Connecticut, CT 06484 | Phone: (203) 906-7242 | Email: Charlesgillespiew@gmail.com</p>
+                    <p>Shelton, CT 06484 | Phone: (203) 906-7242 | Email: Charlesgillespiew@gmail.com</p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/charles-gillespie-b22888280/">https://www.linkedin.com/in/charles-gillespie-b22888280/</a></p>
                     <p>GitHub: <a href="https://github.com/CharlesWGillespie">https://github.com/CharlesWGillespie</a></p>
                     <p>Portfolio: <a href="https://charleswgillespie.netlify.app/">https://charleswgillespie.netlify.app/</a></p>
@@ -30,9 +30,17 @@ export default function ResumePage() {
                     <p className='p-projects'><Link to="/projects">Here!</Link></p>
                 </div>
                 <div className='resume-experience'>
-                    <h2>PROFESSIONAL EXPERIENCE</h2>
+                    <h2>WORK EXPERIENCE</h2>
+                    <p><strong>Fence Installer | 2023–Present</strong></p>
+                    <p>FOXFENCE, Milford, CT</p>
+                    <p>Installing fences for houses and businesses.</p>
+                    <p><strong>Key Accomplishments:</strong></p>
+                    <ul>
+                        <li>Consistently delivered high-quality fence installations, exceeding customer expectations and ensuring satisfaction.</li>
+                        <li>Demonstrated precision and efficiency in installing fences for both residential and commercial properties.</li>
+                    </ul>
                     <p><strong>Apprentice Lineman | 2021-2023</strong></p>
-                    <p>IBEW Local 42, Connecticut, CT</p>
+                    <p>IBEW Local 42, East Windsor, CT</p>
                     <p>An apprentice under IBEW local 42 maintaining Connecticut's grid by servicing, repairing and installing new power lines and all equipment needed for power.</p>
                     <p><strong>Key Accomplishments:</strong></p>
                     <ul>
@@ -40,20 +48,14 @@ export default function ResumePage() {
                         <li>Successfully progressed through five out of seven program steps, demonstrating dedication and competence.</li>
                         <li>Acquired invaluable teamwork skills and technical expertise in maintaining Connecticut's power grid.</li>
                     </ul>
-                    <p><strong>Fence Installer | 2023–Present</strong></p>
-                    <p>Jays Fence, Connecticut, CT</p>
-                    <p>Installing fences for houses and businesses.</p>
-                    <p><strong>Key Accomplishments:</strong></p>
-                    <ul>
-                        <li>Consistently delivered high-quality fence installations, exceeding customer expectations and ensuring satisfaction.</li>
-                        <li>Demonstrated precision and efficiency in installing fences for both residential and commercial properties.</li>
-                    </ul>
                 </div>
                 <div className='resume-education'>
                     <h2>EDUCATION</h2>
-                    <p>Certificate, Full Stack Web Development</p>
-                    <p>University of Connecticut | March, 2024</p>
-                    <p>Online</p>
+                    <p><strong>Certificate, Full Stack Web Development</strong></p>
+                    <p>University of Connecticut | September 2023 - March 2024 | Remote</p>
+                    <p><strong>Certificate, Pre-Apprenticeship Line Worker Program</strong></p>
+                    <p>North American Lineman Training Center | January 2021 - April 2021 | McEwen, TN</p>
+                    <li>Class A CDL, DOT Card, CPR/ First Aid, Wood Pole Climbing, Bucket Rescue, Pole-Top Rescue, OSHA 11.5-ET&D, Bucket Truck Certification, Digger Derrick Truck Certification</li>
                 </div>
             </div>
             <Footer/>
