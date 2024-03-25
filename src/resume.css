@@ -1,0 +1,63 @@
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-summary,
+.resume-skills,
+.resume-projects,
+.resume-experience,
+.resume-education {
+    margin-bottom: 40px;
+}
+
+.resume-experience li,
+.resume-education li {
+    margin-bottom: 10px;
+}
+
+.resume-education,
+.resume-projects,
+.resume-skills {
+    padding-left: 20px;
+    border-left: 2px solid #333; /* Add a left border for sections */
+}
+
+.resume-education h2,
+.resume-experience h2,
+.resume-projects h2,
+.resume-skills h2,
+.resume-summary h2 {
+    color: #979797;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.resume-education p,
+.resume-experience p,
+.resume-skills p,
+.resume-summary p {
+    margin-bottom: 10px;
+    
+}
+.resume-projects p {
+   margin-bottom: 10px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-education a,
+.resume-experience a,
+.resume-projects a,
+.resume-skills a,
+.resume-summary a {
+    color: #007bff; /* Adjust link color */
+}
+
