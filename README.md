@@ -1,6 +1,6 @@
 # My REACT Portfolio
 
-Welcome to my portfolio! This project showcases my skills, experiences, and projects as a developer. Below, you'll find a brief overview of the pages included in this portfolio:
+Welcome to my portfolio! This project showcases my skills, experiences, and other projects as a developer. Below, you'll find a brief overview of the pages included in this portfolio:
 
 ## About Me
 
